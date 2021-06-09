@@ -63,7 +63,7 @@
                '("yadm"
                  (tramp-login-program "yadm")
                  (tramp-login-args (("enter")))
-                 (tramp-remote-shell "/bin/bash")
+                 (tramp-remote-shell "/bin/sh")
                  (tramp-remote-shell-args ("-c"))))
   (defun yadm-stage ()
     (interactive)
